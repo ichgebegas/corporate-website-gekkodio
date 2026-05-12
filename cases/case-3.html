@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Panteon - переводчик богослужебных чтений с AI, базой текстов и удобной панелью редактирования. Кейс студии Геккодио.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Переводчик богослужебных чтений - кейс Геккодио</title>
+  <base href="../">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Переводчик богослужебных чтений - кейс Геккодио">
+  <meta property="og:description" content="Собрали инструмент для перевода и подготовки богослужебных чтений.">
+  <meta property="og:image" content="assets/img/panteon-translator-cover.jpg">
+
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/SuisseIntl-Regular.otf" as="font" type="font/otf" crossorigin>
+  <link rel="preload" href="assets/fonts/SuisseIntl-Medium.otf" as="font" type="font/otf" crossorigin>
+  <link rel="preload" href="assets/fonts/SuisseIntl-SemiBold.otf" as="font" type="font/otf" crossorigin>
+
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/variables.css?v=blue-20260511-5">
+  <link rel="stylesheet" href="assets/css/base.css?v=fix-20260511-5">
+  <link rel="stylesheet" href="assets/css/sections.css">
+  <link rel="stylesheet" href="assets/css/header.css?v=fix-20260511-5">
+  <link rel="stylesheet" href="assets/css/modal.css?v=fix-20260512-1">
+  <link rel="stylesheet" href="assets/css/home-footer.css">
+  <link rel="stylesheet" href="assets/css/home-cta.css?v=fix-20260511-5">
+  <link rel="stylesheet" href="assets/css/case-page.css?v=final-20260512-1">
+</head>
+<body>
+  <div id="header-slot"></div>
+
+  <main>
+    <article class="case-page">
+      <div class="container">
+        <nav class="case-page__breadcrumbs" aria-label="Хлебные крошки">
+          <a href="index.html">Главная</a>
+          <span class="case-page__breadcrumbs-separator">/</span>
+          <a href="portfolio.html">Проекты</a>
+          <span class="case-page__breadcrumbs-separator">/</span>
+          <span>Переводчик богослужебных чтений</span>
+        </nav>
+
+        <header class="case-page__head">
+          <div class="case-page__head-info">
+            <h1 class="case-page__title">Переводчик богослужебных чтений</h1>
+            <p class="case-page__subtitle">Инструмент для Panteon: помогает готовить переводы чтений, хранить изображения и быстро обновлять тексты для публикации.</p>
+          </div>
+
+          <div class="case-page__meta">
+            <div class="case-page__meta-item"><span class="case-page__meta-label">Клиент</span><span class="case-page__meta-value">Panteon</span></div>
+            <div class="case-page__meta-item"><span class="case-page__meta-label">Срок</span><span class="case-page__meta-value">3 дня</span></div>
+            <div class="case-page__meta-item"><span class="case-page__meta-label">Год</span><span class="case-page__meta-value">2026</span></div>
+            <div class="case-page__meta-item"><span class="case-page__meta-label">Стек</span><span class="case-page__meta-value">Lovable · n8n · OpenAI · Supabase</span></div>
+          </div>
+        </header>
+
+        <div class="case-page__cover case-page__cover--contain">
+          <img src="assets/img/panteon-translator-cover.jpg?v=20260511-1" alt="Интерфейс переводчика богослужебных чтений">
+        </div>
+
+        <section class="case-section">
+          <div class="case-section__layout">
+            <h2 class="case-section__title">Задача</h2>
+            <div class="case-section__body">
+              <p>Panteon нужно было быстро собрать рабочий инструмент для подготовки богослужебных чтений: вводить итальянский текст, добавлять изображения, переводить фрагменты и хранить готовые материалы в одном месте.</p>
+              <p>Главное требование - не делать тяжёлую админку с нуля, а за несколько дней получить понятный процесс, который можно поддерживать и дополнять без разработчика.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-section">
+          <div class="case-section__layout">
+            <h2 class="case-section__title">Решение</h2>
+            <div class="case-section__body">
+              <p>Собрали интерфейс на Lovable, подключили Supabase для хранения материалов, OpenAI для помощи с переводом и n8n для служебных сценариев. Получился компактный рабочий инструмент без лишних экранов.</p>
+              <ul>
+                <li>Панель ввода чтений: первая, вторая lectura и Евангелие</li>
+                <li>Загрузка и хранение изображений к каждому блоку</li>
+                <li>AI-помощь для чернового перевода и вычитки текста</li>
+                <li>Публичный режим просмотра подготовленных материалов</li>
+                <li>База материалов в Supabase с возможностью дальнейшего расширения</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <figure class="case-page__inline-image case-page__inline-image--contain">
+          <img src="assets/img/panteon-n8n-workflow.jpg?v=20260511-1" alt="n8n сценарий для переводчика богослужебных чтений">
+        </figure>
+
+        <section class="case-section">
+          <div class="case-section__layout">
+            <h2 class="case-section__title">Результат</h2>
+            <div class="case-section__body">
+              <p>За 3 дня Panteon получил рабочий переводчик и панель подготовки материалов. Команда может обновлять тексты, добавлять изображения и публиковать чтения быстрее, не собирая процесс вручную из разных файлов.</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="case-page__footer-actions">
+          <a class="btn btn--primary" href="#" target="_blank" rel="noopener noreferrer">Перейти на сайт ↗</a>
+          <a class="btn btn--ghost" href="portfolio.html">К другим проектам</a>
+        </div>
+
+        <section class="case-page__cta">
+          <div class="discuss__card">
+            <div class="discuss__bg" aria-hidden="true"><img src="assets/img/gecko1.svg?v=blue-20260511-5" alt=""></div>
+            <div class="discuss__content">
+              <span class="discuss__eyebrow">Нужен AI-инструмент</span>
+              <h2 class="discuss__title">Соберём рабочий сервис под ваш процесс</h2>
+              <p class="discuss__text">Покажем, где AI ускорит задачу, а где достаточно простой автоматизации.</p>
+              <a class="discuss__cta btn btn--primary btn--lg" href="#contact" data-modal-open="contact">Оставить заявку <span class="discuss__cta-arrow" aria-hidden="true">></span></a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </article>
+  </main>
+
+  <div id="footer-slot"></div>
+  <div id="modal-slot"></div>
+
+  <script src="assets/js/partials.js?v=partials-20260511-blue-1"></script>
+  <script src="assets/js/header.js?v=dropdown-20260511-1"></script>
+  <script src="assets/js/modal.js?v=fix-20260512-1"></script>
+  <script src="assets/js/case-lightbox.js?v=case-refresh-20260511-1"></script>
+</body>
+</html>
+
+
+
+

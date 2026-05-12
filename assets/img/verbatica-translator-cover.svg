@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Verbatica translator interface</title>
+  <desc id="desc">Translator form on a soft blue, pink and yellow gradient background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#6570ff"/>
+      <stop offset="0.48" stop-color="#e68bdc"/>
+      <stop offset="1" stop-color="#ffe35f"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#4d57f0"/>
+      <stop offset="1" stop-color="#e989cf"/>
+    </linearGradient>
+    <linearGradient id="buttonGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#5660f2"/>
+      <stop offset="0.5" stop-color="#df95ce"/>
+      <stop offset="1" stop-color="#ffd45a"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#1f28a8" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="465" y="48" width="670" height="760" rx="32" fill="#fffbfb" filter="url(#shadow)"/>
+
+  <text x="800" y="136" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" fill="url(#titleGrad)">Verbatica</text>
+  <text x="800" y="190" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#3840a8">Translate texts with ease</text>
+  <text x="800" y="232" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#3840a8">Upload a PDF, DOC, or simply enter your text in the field below.</text>
+  <text x="800" y="256" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#3840a8">After clicking "Translate Now" the file will be processed.</text>
+
+  <text x="525" y="312" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#252b7a">Source Language</text>
+  <rect x="525" y="330" width="550" height="44" rx="14" fill="#fff" stroke="#eee5f3" stroke-width="3"/>
+  <text x="543" y="358" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#5d4c82">Russian</text>
+  <path d="M1045 348l9 9 9-9" fill="none" stroke="#b7a8cb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="525" y="426" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#252b7a">Enter your text</text>
+  <rect x="525" y="444" width="550" height="132" rx="14" fill="#fff" stroke="#eee5f3" stroke-width="3"/>
+  <text x="543" y="474" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#9282ab">Type or paste your text here...</text>
+
+  <text x="800" y="628" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#3840a8">or</text>
+  <rect x="525" y="662" width="550" height="104" rx="16" fill="none" stroke="#eadcf2" stroke-width="3" stroke-dasharray="9 9"/>
+  <g transform="translate(800 674)" fill="none" stroke="#2e37e5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 40v-34"/>
+    <path d="M-15 22L0 6l15 16"/>
+    <path d="M-22 40v18h44V40"/>
+  </g>
+  <text x="800" y="744" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#252b7a">Drop your file here</text>
+  <text x="800" y="768" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#3840a8">or click to browse</text>
+
+  <rect x="525" y="820" width="550" height="48" rx="24" fill="url(#buttonGrad)"/>
+  <text x="800" y="851" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#fff">Translate Now</text>
+</svg>
