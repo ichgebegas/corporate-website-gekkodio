@@ -52,30 +52,3 @@ Live demo: https://gekkodio-showcase.vercel.app
 Изображения проекта лежат в `assets/img/`.
 
 ![Gekkodio case preview](assets/img/school%20lab%20photo.png)
-
-## Локальный запуск
-
-```bash
-npm install
-npm start
-```
-
-После запуска открыть:
-
-```text
-http://localhost:3000
-```
-
-## Деплой
-
-Проект готов к деплою на Vercel.
-
-```bash
-vercel deploy --prod
-```
-
-## Заметки
-
-- `.env` файлы намеренно исключены.
-- Отправка формы сейчас заглушена в `api/telegram.js`.
-- Секреты, токены и клиентские доступы не добавлены в репозиторий.
